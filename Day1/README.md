@@ -357,3 +357,13 @@ We suggest that you begin by typing:
 
 Happy hacking!
 </pre>
+
+## Lab - Trying the loops and variable lab exercise
+```
+cd ~/java-microservices-oct-2022
+git pull
+
+cd Day1/reactjs/loops-and-variables/
+npm install
+npm start
+```
