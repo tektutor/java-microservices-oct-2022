@@ -358,7 +358,7 @@ We suggest that you begin by typing:
 Happy hacking!
 </pre>
 
-## Lab - Trying the loops and variable lab exercise
+## ⛹️‍♂️ Lab - Trying the loops and variable lab exercise
 ```
 cd ~/java-microservices-oct-2022
 git pull
