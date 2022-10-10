@@ -131,7 +131,7 @@ Editing the ~/.bashrc using gedit (resembles like Windows notepad editor)
 gedit ~/.bashrc
 ```
 
-Make sure you append the below lines at the end of the file
+Make sure you append the below lines at the end of the file. Replace 'jegan' with 'rps' without quotes 
 <pre>
 # User specific aliases and functions
 export NODEJS_HOME=/home/jegan/Downloads/node-v16.17.1-linux-x64
