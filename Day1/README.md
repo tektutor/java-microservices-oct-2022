@@ -237,3 +237,17 @@ In my case, the url looks as shown below
 <pre>
 /home/jegan/java-microservices-oct-2022/Day1/javascript/font-size/index.html
 </pre>
+  
+## ⛹️‍♂️ Lab - Using JavaScript function as a button click event handler
+```
+cd ~/java-microservices-oct-2022
+git pull
+cd Day1/javascript/functions
+pwd
+```
+Copy the above path and paste in your chrome browser and open index.html file, click the button to check the output.
+  
+In my case, the url looks as shown below
+<pre>
+/home/jegan/java-microservices-oct-2022/Day1/javascript/functions/index.html
+</pre>
