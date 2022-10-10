@@ -283,3 +283,77 @@ In my case, the url looks as shown below
 <pre>
 /home/jegan/java-microservices-oct-2022/Day1/javascript/functions/index.html
 </pre>
+
+## Create your first react-js application
+```
+cd ~
+npx create-react-app hello
+```
+
+Expected output
+<pre>
+[jegan@tektutor.org ~]$ npx create-react-app hello
+Need to install the following packages:
+  create-react-app@5.0.1
+Ok to proceed? (y) y
+npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+
+Creating a new React app in /home/jegan/hello.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1393 packages in 54s
+
+209 packages are looking for funding
+  run `npm fund` for details
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+
+added 56 packages in 6s
+
+209 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1449 packages in 3s
+
+209 packages are looking for funding
+  run `npm fund` for details
+
+6 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Created git commit.
+
+Success! Created hello at /home/jegan/hello
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd hello
+  npm start
+
+Happy hacking!
+</pre>
