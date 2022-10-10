@@ -54,3 +54,65 @@
  
 ## What is WebPack ?
 - is a Javascript library that helps us in packaging the web applications into a bundle which is easier to deploy into some web servers/app servers
+
+## Setting up React Lab environment
+```
+cd ~/Downloads
+wget https://nodejs.org/dist/v16.17.1/node-v16.17.1-linux-x64.tar.xz
+tar xvf node-v16.17.1-linux-x64.tar.xz
+cd node-v16.17.1-linux-x64
+pwd
+```
+  
+Expected output
+<pre>
+[jegan@tektutor.org Downloads]$ <b>tar xvf node-v16.17.1-linux-x64.tar.xz</b>
+node-v16.17.1-linux-x64/
+node-v16.17.1-linux-x64/bin/
+node-v16.17.1-linux-x64/bin/node
+node-v16.17.1-linux-x64/bin/npm
+node-v16.17.1-linux-x64/bin/npx
+node-v16.17.1-linux-x64/bin/corepack
+node-v16.17.1-linux-x64/include/node/openssl/asn1t_no-asm.h
+node-v16.17.1-linux-x64/include/node/openssl/bio_no-asm.h
+node-v16.17.1-linux-x64/include/node/openssl/bn_conf_no-asm.h
+node-v16.17.1-linux-x64/include/node/openssl/cms_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/conf_no-asm.h
+node-v16.17.1-linux-x64/include/node/openssl/crmf_no-asm.h
+node-v16.17.1-linux-x64/include/node/openssl/dso_conf_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/ess_no-asm.h
+node-v16.17.1-linux-x64/include/node/openssl/ocsp_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/opensslv_no-asm.h
+node-v16.17.1-linux-x64/include/node/openssl/safestack_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/ui_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/x509v3_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/crmf_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/crypto_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/dso_conf_no-asm.h
+node-v16.17.1-linux-x64/include/node/openssl/fipskey_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/opensslconf_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/pkcs12_no-asm.h
+node-v16.17.1-linux-x64/include/node/openssl/srp_no-asm.h
+node-v16.17.1-linux-x64/include/node/openssl/x509_no-asm.h
+node-v16.17.1-linux-x64/include/node/openssl/asn1_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/asn1t_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/bio_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/bn_conf_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/cmp_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/cms_no-asm.h
+node-v16.17.1-linux-x64/include/node/openssl/configuration_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/crypto_no-asm.h
+node-v16.17.1-linux-x64/include/node/openssl/err_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/fipskey_no-asm.h
+node-v16.17.1-linux-x64/include/node/openssl/opensslconf_no-asm.h
+node-v16.17.1-linux-x64/include/node/openssl/pkcs7_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/srp_asm.h
+node-v16.17.1-linux-x64/include/node/openssl/ui_no-asm.h
+node-v16.17.1-linux-x64/include/node/openssl/x509v3_no-asm.h
+node-v16.17.1-linux-x64/include/node/zconf.h
+node-v16.17.1-linux-x64/include/node/zlib.h
+node-v16.17.1-linux-x64/README.md
+node-v16.17.1-linux-x64/LICENSE
+node-v16.17.1-linux-x64/CHANGELOG.md
+[jegan@tektutor.org Downloads]$ 
+</pre>
