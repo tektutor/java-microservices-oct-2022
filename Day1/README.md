@@ -180,7 +180,7 @@ v16.17.1
 ```
 cd ~
 sudo yum install -y tree git
-``
+```
 When it prompts for password, type 'rps@12345' without the quotes.
 
 ## Cloning TekTutor GitHub Repository to your Cloud Lab Machine (First time)
