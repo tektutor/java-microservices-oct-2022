@@ -207,5 +207,5 @@ Copy the above path and paste in your chrome browser and open index.html file, c
   
 In my case, the url looks as shown below
 <pre>
-/home/jegan/java-microservices-oct-2022/Day1/javascript/hello-world/index.hmtl
+/home/jegan/java-microservices-oct-2022/Day1/javascript/hello-world/index.html
 </pre>
