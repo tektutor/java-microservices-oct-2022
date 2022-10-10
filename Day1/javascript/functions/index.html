@@ -4,13 +4,21 @@
 	</head>
 	<script>
 		function sayHello() {
-		    console.log ( "Hello JavaScript !" );
+		    console.log ( "sayHello javascript function invoked ..." );
 		    document.getElementById('myParagraph').innerText = "Button Clicked - Hello from JavaScript function"
+		    console.log ( "sayHello javascript function exit ..." );
+		}
+
+		function resetToDefaultText() {
+		    console.log ( "resetToDefaultText javascript function invoked ..." );
+		    document.getElementById('myParagraph').innerText = "Button Clicked - Hello from JavaScript function"
+		    console.log ( "resetToDefaultText javascript function exit ..." );
 		}
 	</script>
 	<body>
 		<p id="myParagraph">Demo Paragraph</p>
 		<button id="myButton" onclick="sayHello()">Say Hello</button>
+		<button id="resetButton" onclick="resetToDefaultText()">Reset to default text</button>
 	</body>
 	
 </html>
