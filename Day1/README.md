@@ -42,7 +42,15 @@
 ## What are the advantages of using React JS over Angular or Vue js ?
 
 ## What is JSX ?
+- means JavaScript XML
+- extension of JavaScript 
+- it is neither a string nor a HTML
+- JSX produces React elements
 
 ## What is Babel/TypeScript ?
-
+- is a JSX compiler or to be precise they are called as Transpilers
+- they convery JSX code into pure javascript
+- TypeScript is yet another Transpiler that converts JSX code into old Javascript code that can be understood by most Web browsers
+ 
 ## What is WebPack ?
+- is a Javascript library that helps us in packaging the web applications into a bundle which is easier to deploy into some web servers/app servers
