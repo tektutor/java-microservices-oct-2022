@@ -185,15 +185,30 @@ When it prompts for password, type 'rps@12345' without the quotes.
 
 
 ## Installing Visual Studio Code in CentOS Linux release 7.9.2009 (Core)
-
+For detailed instructions you may refer this https://linuxize.com/post/how-to-install-visual-studio-code-on-centos-7/#:~:text=Now%20that%20VS%20Code%20is,%2D%3E%20Visual%20Studio%20Code%20).&text=You%20can%20now%20start%20installing,Code%20according%20to%20your%20preferences.
+  
 ```
-sudo yum install epel-release -y
-sudo yum install snapd -y
-sudo systemctl enable --now snapd.socket
-sudo ln -s /var/lib/snapd/snap /snap
-sudo snap install code --classic
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 ```
   
+Create a file named /etc/yum.repos.d/vscode.repo
+```
+sudo gedit /etc/yum.repos.d/vscode.repo
+```
+Paste the below content in /etc/yum.repos.d/vscode.repo and save the file
+<pre>
+[code]
+name=Visual Studio Code
+baseurl=https://packages.microsoft.com/yumrepos/vscode
+enabled=1
+gpgcheck=1
+gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+</pre>
+
+Now you can install Visual Studio code as shown below
+```
+sudo yum install code -y
+```
   
 ## Cloning TekTutor GitHub Repository to your Cloud Lab Machine (First time)
 ```
