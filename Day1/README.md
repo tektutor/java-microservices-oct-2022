@@ -195,5 +195,3 @@ cd java-microservices-oct-2022
 cd ~/java-microservices-oct-2022
 git pull
 ```
-
-
