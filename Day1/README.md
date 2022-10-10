@@ -174,3 +174,38 @@ v16.17.1
 [jegan@tektutor.org ~]$ <b>npm --version</b>
 8.15.0
 </pre>
+
+
+## In case git and tree utilities are not installed on your system
+```
+cd ~
+sudo yum install -y tree git
+```
+When it prompts for password, type 'rps@12345' without the quotes.
+
+## Cloning TekTutor GitHub Repository to your Cloud Lab Machine (First time)
+```
+cd ~
+git clone https://github.com/tektutor/java-microservices-oct-2022.git
+cd java-microservices-oct-2022
+```
+
+## Pulling delta changes after clone
+```
+cd ~/java-microservices-oct-2022
+git pull
+```
+  
+## Executing your first JavaScript example
+```
+cd ~/java-microservices-oct-2022
+git pull
+cd Day1/javascript/hello-world
+pwd
+```
+Copy the above path and paste in your chrome browser and open index.html file, click the button to check the output.
+  
+In my case, the url looks as shown below
+<pre>
+/home/jegan/java-microservices-oct-2022/Day1/javascript/hello-world/index.html
+</pre>
