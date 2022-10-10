@@ -137,3 +137,28 @@ Make sure you append the below lines at the end of the file. Replace 'jegan' wit
 export NODEJS_HOME=/home/jegan/Downloads/node-v16.17.1-linux-x64
 export PATH=$NODEJS_HOME/bin:$PATH
 </pre>
+
+To apply config changes
+```
+source ~/.bashrc
+```
+  
+Verify if nodejs is added to system path as expected
+```
+cd ~
+node --version
+npm --version
+```
+
+Expected output
+<pre>
+[jegan@tektutor.org ~]$ <b>node --version</b>
+bash: node: command not found...
+[jegan@tektutor.org ~]$ <b>npm --version</b>
+bash: npm: command not found...
+[jegan@tektutor.org ~]$ <b>source ~/.bashrc</b>
+[jegan@tektutor.org ~]$ <b>node --version</b>
+v16.17.1
+[jegan@tektutor.org ~]$ <b>npm --version</b>
+8.15.0
+</pre>
