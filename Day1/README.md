@@ -174,3 +174,26 @@ v16.17.1
 [jegan@tektutor.org ~]$ <b>npm --version</b>
 8.15.0
 </pre>
+
+
+## In case git and tree utilities are not installed on your system
+```
+cd ~
+sudo yum install -y tree git
+``
+When it prompts for password, type 'rps@12345' without the quotes.
+
+## Cloning TekTutor GitHub Repository to your Cloud Lab Machine (First time)
+```
+cd ~
+git clone https://github.com/tektutor/java-microservices-oct-2022.git
+cd java-microservices-oct-2022
+```
+
+## Pulling delta changes after clone
+```
+cd ~/java-microservices-oct-2022
+git pull
+```
+
+
