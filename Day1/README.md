@@ -116,3 +116,24 @@ node-v16.17.1-linux-x64/LICENSE
 node-v16.17.1-linux-x64/CHANGELOG.md
 [jegan@tektutor.org Downloads]$ 
 </pre>
+
+## Adding the NodeJS bin folder to system path
+
+  
+You need to edit the file ~/.bashrc 
+Editing the ~/.bashrc using vim
+```
+vim ~/.bashrc
+```
+  
+Editing the ~/.bashrc using gedit (resembles like Windows notepad editor)
+```
+gedit ~/.bashrc
+```
+
+Make sure you append the below lines at the end of the file
+<pre>
+# User specific aliases and functions
+export NODEJS_HOME=/home/jegan/Downloads/node-v16.17.1-linux-x64
+export PATH=$NODEJS_HOME/bin:$PATH
+</pre>
