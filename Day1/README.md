@@ -183,6 +183,18 @@ sudo yum install -y tree git
 ```
 When it prompts for password, type 'rps@12345' without the quotes.
 
+
+## Installing Visual Studio Code in CentOS Linux release 7.9.2009 (Core)
+
+```
+sudo yum install epel-release -y
+sudo yum install snapd -y
+sudo systemctl enable --now snapd.socket
+sudo ln -s /var/lib/snapd/snap /snap
+sudo snap install code --classic
+```
+  
+  
 ## Cloning TekTutor GitHub Repository to your Cloud Lab Machine (First time)
 ```
 cd ~
