@@ -367,3 +367,9 @@ cd Day1/reactjs/loops-and-variables/
 npm install
 npm start
 ```
+  
+## Troubleshooting multiple watch error while running npm start ( Execute this as admin user )
+```
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p 
+```
+  
