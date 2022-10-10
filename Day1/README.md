@@ -125,6 +125,11 @@ Editing the ~/.bashrc using vim
 ```
 vim ~/.bashrc
 ```
+To save the changes in vim editor, you need to follow the below
+<pre>
+Press the esc button
+:wq!
+</pre>
   
 Editing the ~/.bashrc using gedit (resembles like Windows notepad editor)
 ```
