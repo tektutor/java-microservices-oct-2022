@@ -121,7 +121,7 @@ node-v16.17.1-linux-x64/CHANGELOG.md
 
   
 You need to edit the file ~/.bashrc 
-Editing the ~/.bashrc using vim
+<br>Editing the ~/.bashrc using vim
 ```
 vim ~/.bashrc
 ```
@@ -136,7 +136,8 @@ To save the changes in vim editor, you need to follow the below
 Press the esc button
 :wq!
 </pre>
-  
+
+<br>
 Editing the ~/.bashrc using gedit (resembles like Windows notepad editor)
 ```
 gedit ~/.bashrc
