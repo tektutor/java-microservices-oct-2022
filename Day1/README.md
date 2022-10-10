@@ -13,7 +13,6 @@
   - <button> element that allows you to submit the information to server/local for further processing
  
   
-  
 ## Framework vs Library
 
 ## JavaScript
@@ -55,6 +54,12 @@
 ## What is WebPack ?
 - is a Javascript library that helps us in packaging the web applications into a bundle which is easier to deploy into some web servers/app servers
 
+## Installing git in CentOS 7.9.x
+```
+sudo yum -y install https://packages.endpointdev.com/rhel/7/os/x86_64/endpoint-repo.x86_64.rpm
+sudo yum install git  
+```
+  
 ## Setting up React Lab environment
 ```
 cd ~/Downloads
