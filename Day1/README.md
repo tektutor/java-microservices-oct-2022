@@ -292,10 +292,10 @@ npx create-react-app hello
 
 Expected output
 <pre>
-[jegan@tektutor.org ~]$ npx create-react-app hello
+[jegan@tektutor.org ~]$ <b>npx create-react-app hello</b>
 Need to install the following packages:
   create-react-app@5.0.1
-Ok to proceed? (y) y
+Ok to proceed? (y) <b>y</b>
 npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
 
 Creating a new React app in /home/jegan/hello.
