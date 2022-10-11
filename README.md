@@ -1,4 +1,5 @@
 # Developing Spring Boot Microservices with ReactJS Frontend
+This repository has the code samples developed while delivering the Spring Boot Microservices with ReactJS Training.
 
 ## For your Corporate Training/Consulting requirements, you may reach out to me 
 <pre>
