@@ -84,6 +84,13 @@ newgrp docker
 
 ## Building your custom Docker Image to containerize your application
 
+### In case you haven't cloned the TekTutor training GitHub repository
+```
+cd ~
+git clone https://github.com/tektutor/java-microservices-oct-2022.git
+cd java-microservices-oct-2022
+```
+
 ### Build your application
 ```
 cd ~/java-microservices-oct-2022
