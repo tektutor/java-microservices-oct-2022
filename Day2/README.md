@@ -3,6 +3,7 @@
 ## Debugging ReactJS applications from Microsoft Visual Studio Code
 <pre>
 https://code.visualstudio.com/docs/editor/debugging#_launch-configurations
+https://create-react-app.dev/docs/debugging-tests
 </pre>
 
 ## Using Matchers in REST Jest and React Test Suite Framework based Test cases
