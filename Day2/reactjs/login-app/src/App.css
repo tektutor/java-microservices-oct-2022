@@ -1,0 +1,27 @@
+.App {
+    text-align: center;
+    background-color: #FFAE42;
+}
+
+.label {
+    display: block;
+    font-size: larget;
+    color: white;
+    padding: 5px;
+}
+
+.input {
+    font-zie: larget;
+    padding: 5px;
+    margin: 2px;
+}
+
+.btn {
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: larger;
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+}
