@@ -60,3 +60,14 @@ cd Day2/reactjs/login-app
 npm install
 npm start
 ```
+
+# Day 2
+
+## SOLID Design Principle
+1. Single Responsibility Principle (S)
+2. Open Closed Principle (O)
+3. Liskov Substitution Principle (L)
+4. Interface Seggration (I)
+5. Dependency Inject or Dependency Inversion or Invertion of Control (D)
+
+
