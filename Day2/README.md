@@ -51,3 +51,12 @@ OS name: "linux", version: "3.10.0-1160.76.1.el7.x86_64", arch: "amd64", family:
 <pre>
 https://start.spring.io/
 </pre>
+
+## Lab - Executing the React Login Application
+```
+cd ~/java-microservices-oct-2022
+git pull
+cd Day2/reactjs/login-app
+npm install
+npm start
+```
