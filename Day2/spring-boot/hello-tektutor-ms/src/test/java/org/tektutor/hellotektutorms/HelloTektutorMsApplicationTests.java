@@ -1,10 +1,10 @@
-package org.tektutor.hello;
+package org.tektutor.hellotektutorms;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HelloApplicationTests {
+class HelloTektutorMsApplicationTests {
 
 	@Test
 	void contextLoads() {
