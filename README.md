@@ -1,6 +1,6 @@
 # java-microservices-oct-2022
 
-## My Youble Channle
+## My Youble Channel
 <pre>
 https://www.youtube.com/c/JeganathanSwaminathan/videos
 </pre>
