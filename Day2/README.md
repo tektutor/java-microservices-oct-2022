@@ -70,4 +70,14 @@ npm start
 4. Interface Seggration (I)
 5. Dependency Inject or Dependency Inversion or Invertion of Control (D)
 
-
+## Installing Docker Community Edition in CentOS 7.9.2009
+```
+sudo yum install -y yum-utils
+sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+sudo yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
+sudo sytemctl enable docker
+sudo systemctl start docker
+sudo systemctl status docker
+sudo usermod -aG docker $USER
+newgrp docker
+```
