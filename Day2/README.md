@@ -1,5 +1,15 @@
 # Day 2
 
+## Debugging ReactJS applications from Microsoft Visual Studio Code
+<pre>
+https://code.visualstudio.com/docs/editor/debugging#_launch-configurations
+</pre>
+
+## Using Matchers in REST Jest and React Test Suite Framework based Test cases
+<pre>
+https://jestjs.io/docs/using-matchers
+</pre>
+
 ## Installing JDK 11 in CentOS 7.9.2009
 ```
 cd ~/Downloads
