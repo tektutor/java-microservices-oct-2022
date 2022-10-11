@@ -45,3 +45,8 @@ Java version: 17.0.2, vendor: Eclipse Adoptium, runtime: /home/jegan/Downloads/j
 Default locale: en_US, platform encoding: UTF-8
 OS name: "linux", version: "3.10.0-1160.76.1.el7.x86_64", arch: "amd64", family: "unix"
 </pre>
+
+## Spring Initializr website
+<pre>
+https://start.spring.io/
+</pre>
