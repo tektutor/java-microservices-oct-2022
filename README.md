@@ -1,4 +1,4 @@
-## For Corporate training/consulting enquiries, you may reach out to me 
+## For your Corporate Training/Consulting requirements, you may reach out to me 
 <pre>
 jegan@tektutor.org
 +91 822-000-5626
