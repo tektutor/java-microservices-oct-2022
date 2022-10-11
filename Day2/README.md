@@ -81,3 +81,33 @@ sudo systemctl status docker
 sudo usermod -aG docker $USER
 newgrp docker
 ```
+
+## Building your custom Docker Image to containerize your application
+
+### Build your application
+```
+cd ~/java-microservices-oct-2022
+git pull
+cd Day2/spring-boot/hello-tektutor-ms
+
+mvn package
+cp target/hello-tektutor-ms-0.0.1-SNAPSHOT.jar ./hello.jar
+```
+
+### Build your custom Docker Image inject your application jar inside the image
+```
+cd ~/java-microservices-oct-2022
+git pull
+cd Day2/spring-boot/hello-tektutor-ms
+
+docker build -t tektutor/hello-ms:1.0 .
+docker images
+```
+
+### Create an instance of your microservice container from your custom docker image
+```
+docker run -d --name c1 --hostname c1 -p 8080:8080 tektutor/hello-ms:1.0
+docker ps
+curl http://localhost:8080/hello
+curl http://localhost:8080/greeting
+```
