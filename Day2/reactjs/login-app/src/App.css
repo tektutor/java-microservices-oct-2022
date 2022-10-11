@@ -26,20 +26,19 @@
     margin: 10px auto;
 }
 
-.message {
-    display: block;
+.messages {
+    display: flex;
     text-align: center;
     justify-content: center;
+    padding: 5px;
 }
 
 .error {
     background-color: red;
     color: white;
-    height: 35px;
 }
 
 .success {
     background-color: lightblue;
     color: black;
-    height: 35px;
 }
