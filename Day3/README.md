@@ -6,7 +6,7 @@ newgrp docker
 id
 ```
 
-## Lab - Creating mysql docker container
+## ⛹️‍♀️ Lab - Creating mysql docker container
 ```
 docker run -d --name mysql --hostname mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root bitnami/mysql:latest
 ```
