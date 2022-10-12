@@ -254,3 +254,5 @@ Once the customer microservice is up and running, try this url from your chrome 
 http://localhost:8080/api/v1/customer
 http://localhost:8080/api/v1/customer/1
 </pre>
+
+In the above the first REST endpoint will return all customers from the customer table, while the second REST endpoint will search for customerId=1 and return if it exists.
