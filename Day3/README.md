@@ -24,6 +24,7 @@ docker logs mysql
 Finding the IPAddress of mysql db server container
 ```
 docker inspect -f {{.NetworkSettings.IPAddress}} mysql
+docker inspect mysql | grep IPA
 ```
 
 #### Getting inside the mysql db container to create database and an empty customer table
