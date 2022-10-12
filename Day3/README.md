@@ -237,3 +237,20 @@ public class CustomerApplication {
 
 }
 </pre>
+
+
+## Lab - Try running the Customer Microservice
+```
+cd ~/java-microservices-oct-2022
+git pull
+
+cd Day3/customer
+mvn clean package
+mvn spring-boot:run
+```
+
+Once the customer microservice is up and running, try this url from your chrome browser on the same lab machine
+<pre>
+http://localhost:8080/api/v1/customer
+http://localhost:8080/api/v1/customer/1
+</pre>
