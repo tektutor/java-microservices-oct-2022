@@ -296,3 +296,11 @@ Try listing all customers and see if the customer is deleted as expected
 ```
 curl -H 'Content-Type: application/json' http://localhost:8080/api/v1/customer
 ```
+
+## Circuit Breaker Microservice Design Pattern
+- Let's say there is a Weather application that depends on a Weather Microservice
+- The Weather application is a ReactJS Frontend application that knows how to visually present the Weather information in an interesting fashion
+- As Microservices are distribution, microservices go go unreacheable due to various reason
+- In such cases, the Circuit Breaker Design Pattern will invoke an alternate Microservice or present the already cached local data to the end-user
+
+
