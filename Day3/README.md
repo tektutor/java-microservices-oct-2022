@@ -279,3 +279,20 @@ curl -H 'Content-Type: application/json' http://localhost:8080/api/v1/customer
 curl -H 'Content-Type: application/json' http://localhost:8080/api/v1/customer/1
 curl -H 'Content-Type: application/json' http://localhost:8080/api/v1/customer/2
 ```
+
+## Testing DELETE - try deleting a customer by supplying an existing customer id
+
+Check how many customer entries are there before deleting
+```
+curl -H 'Content-Type: application/json' http://localhost:8080/api/v1/customer
+```
+
+Now delete one of the existing customer
+```
+curl -X DELETE -H 'Content-Type: application/json' http://localhost:8080/api/v1/customer/delete/1
+```
+
+Try listing all customers and see if the customer is deleted as expected
+```
+curl -H 'Content-Type: application/json' http://localhost:8080/api/v1/customer
+```
