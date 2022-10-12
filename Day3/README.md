@@ -21,6 +21,11 @@ In case, you wish to see the mysql db server logs
 docker logs mysql
 ```
 
+Finding the IPAddress of mysql db server container
+```
+docker inspect -f {{.NetworkSettings.IPAddress}} mysql
+```
+
 #### Getting inside the mysql db container to create database and an empty customer table
 When it prompts for password, type 'root' without quotes.
 ```
