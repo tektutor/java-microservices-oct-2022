@@ -1,5 +1,30 @@
 # Day 3
 
+## Creating mysql docker container
+```
+docker run -d --name mysql --hostname mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root bitnami/mysql:latest
+```
+
+List and see if the mysql container is running
+```
+docker ps
+```
+
+In case, you wish to see the mysql db server logs
+```
+docker logs mysql
+```
+
+#### Getting inside the mysql db container to create database and an empty customer table
+When it prompts for password, type 'root' without quotes.
+```
+docker exec -it mysql sh
+mysql -u root -p
+CREATE DATABASE tektutor;
+USE tektutor;
+CREATE TABLE customer (id INT NOT NULL, firstname VARCHAR(100) NOT NULL, lastname VARCHAR(100) NOT NULL, email VARCHAR(250) NOT NULL, PRIMARY KEY(id) );
+```
+
 ## Troubleshooting Maven build failure related to JPA
 
 If you are getting this below error
