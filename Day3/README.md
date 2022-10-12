@@ -1,4 +1,10 @@
 # Day 3
+## Troubleshooting docker permission denied error
+```
+id
+newgrp docker
+id
+```
 
 ## Creating mysql docker container
 ```
