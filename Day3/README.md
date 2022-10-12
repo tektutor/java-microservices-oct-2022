@@ -1,5 +1,5 @@
 # Day 3
-## Troubleshooting docker permission denied error
+## Troubleshooting docker permission denied error (try this in your new terminal)
 ```
 id
 newgrp docker
