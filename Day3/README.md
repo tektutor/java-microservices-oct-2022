@@ -265,7 +265,7 @@ In the above the first REST endpoint will return all customers from the customer
 
 ## Testing POST - try registering a new customer
 ```
-curl -d '{"id":2,"firstname":"Ram","lastname":"Kumar", "eg.com"}' -H 'Content-Type: application/json' http://localhost:8080/api/v1/customer/register
+curl -d '{"id":2,"firstname":"Ram","lastname":"Kumar", "email": "myemail@some.com"}' -H 'Content-Type: application/json' http://localhost:8080/api/v1/customer/register
 ```
 Make sure, the id with 2 doesn't already exit.
 
