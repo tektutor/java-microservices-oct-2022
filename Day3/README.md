@@ -262,3 +262,20 @@ http://localhost:8080/api/v1/customer/1
 </pre>
 
 In the above the first REST endpoint will return all customers from the customer table, while the second REST endpoint will search for customerId=1 and return if it exists.
+
+## Testing POST - try registering a new customer
+```
+curl -d '{"id":2,"firstname":"Ram","lastname":"Kumar", "eg.com"}' -H 'Content-Type: application/json' http://localhost:8080/api/v1/customer/register
+```
+Make sure, the id with 2 doesn't already exit.
+
+## Testing GET - try retrieving all customers
+```
+curl -H 'Content-Type: application/json' http://localhost:8080/api/v1/customer
+```
+
+## Testing GET - try retrieving a single customer by suppling the customer id
+```
+curl -H 'Content-Type: application/json' http://localhost:8080/api/v1/customer/1
+curl -H 'Content-Type: application/json' http://localhost:8080/api/v1/customer/2
+```
