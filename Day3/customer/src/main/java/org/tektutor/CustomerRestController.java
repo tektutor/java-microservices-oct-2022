@@ -46,7 +46,7 @@ public class CustomerRestController {
 	}
 	
 	@RequestMapping(
-			value="/api/v1/customer/register", 
+			value="/api/v1/customer/update", 
 			method=RequestMethod.PATCH 
 	)
 	public void updateCustomer( Customer customer ) {		
