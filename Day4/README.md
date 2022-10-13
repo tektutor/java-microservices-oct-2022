@@ -32,7 +32,10 @@ password - guest
 </pre>
 
 ## Starting the Producer Microservice that sends message to the RabbitMQ queue
-
+<pre>
+Will add the lab instructions - TODO
+We have already completed but instructions need to be added.
+</pre>
 
 ## Lab - Understanding Eureka Service Discovery
 
