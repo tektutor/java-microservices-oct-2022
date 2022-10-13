@@ -39,6 +39,8 @@ We have already completed but instructions need to be added.
 
 ## Lab - Understanding Eureka Service Discovery
 
+![Eureka Service Discovery](eureka-service-discovery.png)
+
 ### Starting the Netflix Eureka Service Discovery Server
 ```
 cd ~/java-microservices-oct-2022
