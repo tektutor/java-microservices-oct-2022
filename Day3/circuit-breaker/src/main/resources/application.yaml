@@ -1,0 +1,9 @@
+server:
+  port: 8085 
+
+resilience4j:
+  retry:
+    instances:
+      unstableMicroservice:
+        max-attempts: 3
+        wait-duration: 1s
