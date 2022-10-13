@@ -32,3 +32,49 @@ password - guest
 </pre>
 
 ## Starting the Producer Microservice that sends message to the RabbitMQ queue
+
+
+## Lab - Understanding Eureka Service Discovery
+
+### Starting the Netflix Eureka Service Discovery Server
+```
+cd ~/java-microservices-oct-2022
+git pull
+
+cd Day4/service-discovery-with-netflix-eureka/eureka-server
+mvn clean package spring-boot:run
+```
+
+Accessing the Eureka Server Dashboard from Chrome Web browser
+```
+http://localhost:8761
+```
+
+### Starting the Product Microservice
+```
+cd ~/java-microservices-oct-2022
+git pull
+
+cd Day4/service-discovery-with-netflix-eureka/product
+mvn clean package spring-boot:run
+```
+Observe that the product microservice registering itself with Eureka Server from the terminal.
+You may also now check the Eureka Server Dashboard to see the Product microservice registered entry in Web browser.
+
+### Starting the eureka discovery client application
+```
+cd ~/java-microservices-oct-2022
+git pull
+
+cd Day4/service-discovery-with-netflix-eureka/eureka-discovery-client
+mvn clean package spring-boot:run
+```
+
+Observe that the eureka-discovery-client application registering itself with Eureka Server from the terminal.
+You may also now check the Eureka Server Dashboard to see the Eureka Client registered entry in Web browser.
+
+The Eureka Discovery Client application, queries the Eureka services providing the product microservice name to get the product microserivce endpoint.
+
+Once it receives the product microservice endpoint, it then invokes the product microservice endpoint to get the list of the products.
+
+When this application is terminated, observe it unregisters itself from the Eureka Server. This is a default behaviour of every Eureka Discovery Client.
