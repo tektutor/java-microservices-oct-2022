@@ -1,9 +1,18 @@
-## Microservice Circuit Breaker - Design Pattern
+## Microservice Circuit Breaker - Design Pattern ( listens @ 8085 port )
 ```
 cd ~/java-microservices-oct-2022
 git pull
 
 cd Day3/circuit-breaker
+mvn clean package spring-boot:run
+```
+
+From another terminal, start the customer microservice( listens @ 8080 port )
+```
+cd ~/java-microservices-oct-2022
+git pull
+
+cd Day3/customer-microservice-crud
 mvn clean package spring-boot:run
 ```
 
