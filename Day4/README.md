@@ -64,6 +64,11 @@ mvn clean package spring-boot:run
 Observe that the product microservice registering itself with Eureka Server from the terminal.
 You may also now check the Eureka Server Dashboard to see the Product microservice registered entry in Web browser.
 
+You can access the product microservice at the below URL
+<pre>
+http://localhost:8080
+</pre>
+
 ### Starting the eureka discovery client application
 ```
 cd ~/java-microservices-oct-2022
@@ -79,5 +84,10 @@ You may also now check the Eureka Server Dashboard to see the Eureka Client regi
 The Eureka Discovery Client application, queries the Eureka services providing the product microservice name to get the product microserivce endpoint.
 
 Once it receives the product microservice endpoint, it then invokes the product microservice endpoint to get the list of the products.
+
+You can try accessing the REST endpoint of this application
+<pre>
+http://localhost:9000/products
+</pre>
 
 When this application is terminated, observe it unregisters itself from the Eureka Server. This is a default behaviour of every Eureka Discovery Client.
