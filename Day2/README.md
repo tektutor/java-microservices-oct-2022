@@ -63,6 +63,13 @@ npm start
 
 # Day 2
 
+## What is Spring Framework?
+
+## What is Spring Boot Framework?
+
+## What is the difference between Spring boot and Spring Cloud 
+
+
 ## SOLID Design Principle
 1. Single Responsibility Principle (S)
 2. Open Closed Principle (O)
