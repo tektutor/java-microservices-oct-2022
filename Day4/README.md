@@ -99,3 +99,20 @@ http://localhost:9000/products
 </pre>
 
 When this application is terminated, observe it unregisters itself from the Eureka Server. This is a default behaviour of every Eureka Discovery Client.
+
+## Microservices using message/event based data exchange - helps in decoupling microservice communication
+```
+cd ~/java-microservices-oct-2022
+git pull
+cd Day4/rabbitmq-amqp/AMQP
+mvn clean package spring-boot:run
+```
+
+You may now launch chrome browser and send message using below URL
+<pre>
+http://localhost:8080/send/AMQP - Hello World!
+</pre>
+
+
+As soon as you send your message, a notification will be send to Receiver object's receiveMessage method, which then prints the message onto the terminal window.
+
