@@ -112,3 +112,7 @@ You may now launch chrome browser and send message using below URL
 <pre>
 http://localhost:8080/send/AMQP - Hello World!
 </pre>
+
+
+As soon as you send your message, a notification will be send to Receiver object's receiveMessage method, which then prints the message onto the terminal window.
+
