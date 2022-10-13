@@ -41,6 +41,12 @@ We have already completed but instructions need to be added.
 
 ![Eureka Service Discovery](eureka-service-discovery.png)
 
+### Eureka Service Discovery
+- is a Client-side Service discovery
+- every microservice must register themselves with the Eureka Server url (fixed url & port)
+- If a Microservice A needs to request some data from Microservice B, then Microservice A need to have some piece of logic to query the Eureka Server to get the Microservice B's url/endpoint.
+- Every microservice will keep updating the Eureka Server frequently
+
 ### Starting the Netflix Eureka Service Discovery Server
 ```
 cd ~/java-microservices-oct-2022
