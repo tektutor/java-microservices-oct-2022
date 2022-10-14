@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.springframework.webflow</groupId>
+	<artifactId>spring-webflow-samples</artifactId>
+	<packaging>pom</packaging>
+	<name>Spring Web Flow Samples</name>
+	<version>1.0.0.BUILD-SNAPSHOT</version>
+
+	<modules>
+		<module>booking-mvc</module>
+		<!--
+		<module>booking-faces</module>
+		<module>primefaces-showcase</module>
+		<module>webflow-showcase</module>
+		-->
+	</modules>
+
+	<properties>
+		<easymock.version>3.4</easymock.version>
+		<hsqldb.version>2.5.1</hsqldb.version>
+		<hibernate.version>5.6.10.Final</hibernate.version>
+		<hibernate-validator.version>7.0.4.Final</hibernate-validator.version>
+		<jaxb.version>2.2.3</jaxb.version>
+		<jetty-maven-plugin.version>11.0.11</jetty-maven-plugin.version>
+		<jsp-api.version>3.0.0</jsp-api.version>
+		<jstl-api>2.0.0</jstl-api>
+		<junit.version>4.13.2</junit.version>
+		<log4j.version>2.14.0</log4j.version>
+		<mojarra.version>2.2.20</mojarra.version>
+		<myfaces.version>2.3.8</myfaces.version>
+		<primefaces.version>8.0</primefaces.version>
+		<servlet.version>5.0.0</servlet.version>
+		<webflow.version>3.0.0-M1</webflow.version>
+		<maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-framework-bom</artifactId>
+				<version>6.0.0-M5</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.security</groupId>
+				<artifactId>spring-security-bom</artifactId>
+				<type>pom</type>
+				<scope>import</scope>
+				<version>6.0.0-M5</version>
+			</dependency>
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>1.7.30</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<repositories>
+		<repository>
+			<id>spring-snapshot</id>
+			<name>Spring Snapshot Repository</name>
+			<url>https://repo.spring.io/snapshot</url>
+		</repository>
+		<repository>
+			<id>spring-milestone</id>
+			<name>Spring Milestone Repository</name>
+			<url>https://repo.spring.io/milestone</url>
+		</repository>
+	</repositories>
+
+</project>
