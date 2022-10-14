@@ -11,7 +11,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @RestController
 @SpringBootApplication
-//@EnableEurekaClient
+@EnableEurekaClient
 public class SayHelloApplication {
 
     private static Logger log = LoggerFactory.getLogger( SayHelloApplication.class );
