@@ -44,7 +44,7 @@ Microservices can communicate with each other via
     - Domain may have sub-domains
     - Example : E-Commerce Domain has User, Product, Inventory, Order, Delivery, etc.,
 
-## Lab - Using JWT Token to secure microservice to microservice communication
+## ⛹️‍♀️ Lab - Using JWT Token to secure microservice to microservice communication
 
 ### What is JWT?
 - JSON Web Token (JWT)
