@@ -43,3 +43,30 @@ Microservices can communicate with each other via
   - using Domain Driven Design
     - Domain may have sub-domains
     - Example : E-Commerce Domain has User, Product, Inventory, Order, Delivery, etc.,
+
+## Lab - Using JWT Token to secure microservice to microservice communication
+
+### What is JWT?
+- JSON Web Token (JWT)
+- JWT has 3 parts
+  1. Header
+  2. Payload
+  3. Signature
+
+#### JWT Header 
+- indicates the encryption algorithm(HMAC SHA256 or RSA) used and type of token
+- Looks as shown below . 
+<pre>
+  {
+    "alg": "SHA256",
+    "typ": "JWT"
+  }
+</pre>
+
+#### JWT Payload
+- payload is the data
+- user credentials, etc,
+
+#### Signature
+- the signature is created by signing the encoded header and encoded payload with a secret key using the algorithm mentioned in the header
+
