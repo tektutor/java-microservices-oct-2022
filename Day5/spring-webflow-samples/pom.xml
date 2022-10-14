@@ -34,6 +34,8 @@
 		<servlet.version>5.0.0</servlet.version>
 		<webflow.version>3.0.0-M1</webflow.version>
 		<maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
 	<dependencyManagement>
