@@ -70,3 +70,21 @@ Microservices can communicate with each other via
 #### Signature
 - the signature is created by signing the encoded header and encoded payload with a secret key using the algorithm mentioned in the header
 
+
+### Invoking the JWT authenticated endpoint supported by Hello Microservice
+```
+cd ~/java-microservices-oct-2022
+git pull
+cd Day5/jwt/hello
+mvn clean package spring-boot:run
+```
+
+From a different terminal try this
+```
+curl -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZWt0dXRvciIsImV4cCI6MTY2NTc1OTM4OSwiaWF0IjoxNjY1NzQxMzg5fQ.iOlqFUnHfhRO7cUjRVMVaw8zSzfrJp2oeWKhmRscoou__di1lsX4n6O3CWj0FKaUXOM34vky9zqjwOOhQYE0-Q" http://localhost:8080/hello
+```
+
+Expected output
+<pre>
+Hello World
+</pre>
