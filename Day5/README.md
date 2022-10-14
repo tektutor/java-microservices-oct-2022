@@ -95,3 +95,45 @@ Expected output
 <pre>
 Hello World
 </pre>
+
+## Setting up Kafka as a Docker container
+### Intalling docker-compose
+```
+sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version
+```
+
+```
+cd ~/java-microservices-oct-2022
+git pull
+cd Day5/kafka
+docker-compose up -d
+```
+
+Expected output
+<pre>
+(jegan@tektutor.org)$ <b>docker-compose up -d</b>
+Creating network "kafka_default" with the default driver
+Pulling zookeeper (bitnami/zookeeper:latest)...
+latest: Pulling from bitnami/zookeeper
+1d8866550bdd: Already exists
+b17e628e7d4e: Pull complete
+Digest: sha256:3d5618e281f4d29b3fe8762b4b7968e62f7e35ba485991752e2f7a3a1472c6ea
+Status: Downloaded newer image for bitnami/zookeeper:latest
+Pulling kafka (bitnami/kafka:latest)...
+latest: Pulling from bitnami/kafka
+1d8866550bdd: Already exists
+3cf3058708e5: Pull complete
+Digest: sha256:b42bb8f2f20480725e0744413357630060d675554c5da956ffd19965c05a93e4
+Status: Downloaded newer image for bitnami/kafka:latest
+Creating kafka_zookeeper_1 ... 
+Creating kafka_zookeeper_1 ... done
+Creating kafka_kafka_1 ... 
+Creating kafka_kafka_1 ... done
+(jegan@tektutor.org)$ <b>docker ps</b>
+CONTAINER ID   IMAGE                      COMMAND                  CREATED         STATUS         PORTS                                                                     NAMES
+c04297ef2f80   bitnami/kafka:latest       "/opt/bitnami/script…"   5 seconds ago   Up 4 seconds   0.0.0.0:9092->9092/tcp, :::9092->9092/tcp                                 kafka_kafka_1
+4fd20ae74cba   bitnami/zookeeper:latest   "/opt/bitnami/script…"   6 seconds ago   Up 4 seconds   2888/tcp, 3888/tcp, 0.0.0.0:2181->2181/tcp, :::2181->2181/tcp, 8080/tcp   kafka_zookeeper_1
+</pre>
