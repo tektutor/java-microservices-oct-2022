@@ -80,6 +80,13 @@ mvn clean package spring-boot:run
 ```
 
 From a different terminal try this
+
+Get the bearer token
+```
+curl -H "Content-Type: application/json" -X POST -d '{"username": "tektutor","password":"password"}' http://localhost:8080/authenticate
+```
+
+Now use that bearer token to 
 ```
 curl -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZWt0dXRvciIsImV4cCI6MTY2NTc1OTM4OSwiaWF0IjoxNjY1NzQxMzg5fQ.iOlqFUnHfhRO7cUjRVMVaw8zSzfrJp2oeWKhmRscoou__di1lsX4n6O3CWj0FKaUXOM34vky9zqjwOOhQYE0-Q" http://localhost:8080/hello
 ```
